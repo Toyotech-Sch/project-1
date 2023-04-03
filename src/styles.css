@@ -9,7 +9,6 @@ body {
 
 .innerDiv{
     text-align: center;
-    padding-top: 5rem;
 }
 
 .container{
@@ -102,7 +101,7 @@ body {
 }
 
 .hero{
-    height: 500px;
+    min-height: 500px;
     padding: 5rem 2rem 2rem 2rem;
 }
 
@@ -182,7 +181,7 @@ body {
     font-size: 18px;
     display: block;
     margin: auto;
-    width: 270px;
+    max-width: 270px;
     transition: .4s;
     cursor: pointer;
 }
@@ -357,5 +356,15 @@ For mobile and tablet screens
         width: 100%;
         max-width: unset;
         margin-top: 20px;
+    }
+
+    /* Responsive Background Images  */
+    .header{
+        background-position-x: -253px;
+    }
+
+    .footer{
+        background-position-x: 256px;
+        background-position-y: 256px;
     }
 }
