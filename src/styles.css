@@ -9,7 +9,7 @@ body {
 
 .innerDiv{
     text-align: center;
-    margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 .container{
@@ -351,7 +351,7 @@ For mobile and tablet screens
 }
 
 @media screen and (max-width: 500px){
-    
+
     /* Add your responsive code here */
     .col{
         width: 100%;
