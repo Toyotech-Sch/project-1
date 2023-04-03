@@ -351,9 +351,11 @@ For mobile and tablet screens
 }
 
 @media screen and (max-width: 500px){
+    
     /* Add your responsive code here */
     .col{
         width: 100%;
         max-width: unset;
+        margin-top: 20px;
     }
 }
